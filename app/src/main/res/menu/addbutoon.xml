@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/mybutton"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:title="logout"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/enable"
+        android:title="Enable"
+        android:visible="true" />
+    <item
+        android:id="@+id/disable"
+        android:title="Disable"
+        android:visible="true"/>
+</menu>

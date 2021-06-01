@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+tools:context=".result">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="President"
+        android:id="@+id/t1"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/t1"
+        android:id="@+id/l1"
+
+        android:layout_height="wrap_content"></ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_below="@id/l1"
+        android:textSize="15dp"
+        android:text="Vice President"
+        android:id="@+id/t2"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/t2"
+        android:id="@+id/l2"
+
+        android:layout_height="wrap_content"></ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:textStyle="bold"
+        android:layout_below="@id/l2"
+        android:textSize="15dp"
+        android:text="Treasurer"
+        android:id="@+id/t3"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/t3"
+        android:id="@+id/l3"
+
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:textStyle="bold"
+        android:layout_below="@id/l3"
+        android:textSize="15dp"
+        android:text="Secretary"
+        android:id="@+id/t4"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/t4"
+        android:id="@+id/l4"
+
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_below="@id/l4"
+        android:textSize="15dp"
+        android:text="Joint Secretary"
+        android:id="@+id/t5"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/t5"
+        android:id="@+id/l5"
+
+        android:layout_height="wrap_content"></ListView>
+
+
+
+</RelativeLayout>

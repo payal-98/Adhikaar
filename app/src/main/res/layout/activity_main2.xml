@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="President"
+            android:textSize="25sp"
+            android:id="@+id/text1"
+            />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group1"
+            android:layout_below="@+id/text1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vice President"
+            android:textSize="25sp"
+            android:id="@+id/text2"
+            android:layout_below="@+id/group1"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group2"
+            android:layout_below="@+id/text2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secretary"
+            android:textSize="25sp"
+            android:id="@+id/text3"
+            android:layout_below="@+id/group2"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group3"
+            android:layout_below="@+id/text3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Treasurer"
+            android:textSize="25sp"
+            android:id="@+id/text4"
+            android:layout_below="@+id/group3"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group4"
+            android:layout_below="@+id/text4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Joint Secretary"
+            android:textSize="25sp"
+            android:id="@+id/text5"
+            android:layout_below="@+id/group4"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group5"
+            android:layout_below="@+id/text5"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="124dp"
+            android:text="VOTE"
+            android:layout_below="@id/group5"
+            android:background="@drawable/mybutton"
+            android:textColor="@color/White"
+            android:id="@+id/vote"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
